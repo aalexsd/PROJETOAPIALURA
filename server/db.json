@@ -2,70 +2,76 @@
   "learnhttp": {},
   "journals": [
     {
-      "id": "b9d226c0-da36-11ed-bcaf-5392184de665",
-      "content": "Fui ao supermercado e fiz compras para a semana.\nResolvi algumas tarefas pendentes no trabalho.",
-      "created_at": "2023-03-30 17:05:29.691336",
-      "updated_at": "2023-03-30 17:05:29.691336"
+      "id": "b04ec750-da38-11ed-bdf1-af3d4e9cb8ed",
+      "content": "Fui ao supermercado e fiz compras para a semana.\nResolvi algumas tarefas pendentes no trabalho.\n",
+      "created_at": "2023-03-30 17:20:39.786578",
+      "updated_at": "2023-03-30 17:20:39.786578"
     },
     {
-      "id": "d6332a80-da36-11ed-bcaf-5392184de665",
-      "content": "Fiz uma caminhada matinal no parque.\nAssisti a um filme no cinema com amigos.",
-      "created_at": "2023-03-31 17:05:29.691336",
-      "updated_at": "2023-03-31 17:05:29.691336"
+      "id": "b57375a0-da38-11ed-bdf1-af3d4e9cb8ed",
+      "content": "Fiz uma caminhada matinal no parque.\nAssisti a um filme no cinema com amigos.\n",
+      "created_at": "2023-03-31 17:20:39.786578",
+      "updated_at": "2023-03-31 17:20:39.786578"
     },
     {
-      "id": "ddaff9a0-da36-11ed-bcaf-5392184de665",
-      "content": "Visitei meus avós e passei o dia com eles.\nFui ao barbeiro e cortei o cabelo.",
-      "created_at": "2023-04-02 17:05:29.691336",
-      "updated_at": "2023-04-02 17:05:29.691336"
+      "id": "b91f1880-da38-11ed-bdf1-af3d4e9cb8ed",
+      "content": "Visitei meus avós e passei o dia com eles.\nFui ao barbeiro e cortei o cabelo.\n",
+      "created_at": "2023-04-01 17:20:39.786578",
+      "updated_at": "2023-04-01 17:20:39.786578"
     },
     {
-      "id": "e56257b0-da36-11ed-bcaf-5392184de665",
-      "content": "Terminei de ler um livro que estava lendo há algum tempo.",
-      "created_at": "2023-04-03 17:05:29.691336",
-      "updated_at": "2023-04-03 17:05:29.691336"
+      "id": "bf017180-da38-11ed-bdf1-af3d4e9cb8ed",
+      "content": "Terminei de ler um livro que estava lendo há algum tempo.\nCozinhei um jantar especial para a minha família.\n",
+      "created_at": "2023-04-02 17:20:39.786578",
+      "updated_at": "2023-04-02 17:20:39.786578"
     },
     {
-      "id": "e98b67f0-da36-11ed-bcaf-5392184de665",
-      "content": "Cozinhei um jantar especial para a minha família.",
-      "created_at": "2023-04-04 17:05:29.691336",
-      "updated_at": "2023-04-04 17:05:29.691336"
+      "id": "c4774d10-da38-11ed-bdf1-af3d4e9cb8ed",
+      "content": "Fiz uma aula de ioga para relaxar a mente e o corpo.\nPassei a tarde no parque com meu cachorro.\n\n\n",
+      "created_at": "2023-04-03 17:20:39.786578",
+      "updated_at": "2023-04-03 17:20:39.786578"
     },
     {
-      "id": "f565c4d0-da36-11ed-bcaf-5392184de665",
-      "content": "Fiz uma aula de ioga para relaxar a mente e o corpo.\nPassei a tarde no parque com meu cachorro.",
-      "created_at": "2023-04-05 17:05:29.691336",
-      "updated_at": "2023-04-05 17:05:29.691336"
+      "id": "cada47c0-da38-11ed-bdf1-af3d4e9cb8ed",
+      "content": "Fiz uma limpeza geral na casa.\nAssisti a uma aula de dança para me divertir e aprender algo novo.\n",
+      "created_at": "2023-04-04 17:20:39.786578",
+      "updated_at": "2023-04-04 17:20:39.786578"
     },
     {
-      "id": "02a5cc30-da37-11ed-bcaf-5392184de665",
-      "content": "Fiz uma limpeza geral na casa.\nAssisti a uma aula de dança para me divertir e aprender algo novo.",
-      "created_at": "2023-04-06 17:05:29.691336",
-      "updated_at": "2023-04-06 17:05:29.691336"
+      "id": "ced47fd0-da38-11ed-bdf1-af3d4e9cb8ed",
+      "content": "Fui ao médico fazer um check-up de rotina.\nTerminei de assistir a uma série que estava acompanhando.\n",
+      "created_at": "2023-04-05 17:20:39.786578",
+      "updated_at": "2023-04-05 17:20:39.786578"
     },
     {
-      "id": "09701430-da37-11ed-bcaf-5392184de665",
-      "content": "Fui ao médico fazer um check-up de rotina.\nTerminei de assistir a uma série que estava acompanhando",
-      "created_at": "2023-04-09 17:05:29.691336",
-      "updated_at": "2023-04-09 17:05:29.691336"
-    },
-    {
-      "id": "0e5d37c0-da37-11ed-bcaf-5392184de665",
+      "id": "d508a250-da38-11ed-bdf1-af3d4e9cb8ed",
       "content": "Fui ao museu com amigos para ver uma exposição interessante.\nOrganizei meu guarda-roupa e separei roupas para doação.\n",
-      "created_at": "2023-04-10 17:05:29.691336",
-      "updated_at": "2023-04-10 17:05:29.691336"
+      "created_at": "2023-04-07 17:20:39.786578",
+      "updated_at": "2023-04-07 17:20:39.786578"
     },
     {
-      "id": "12ac1f80-da37-11ed-bcaf-5392184de665",
-      "content": "Fiz um piquenique no parque com minha família.\n",
-      "created_at": "2023-04-11 17:05:29.691336",
-      "updated_at": "2023-04-11 17:05:29.691336"
+      "id": "e1650070-da38-11ed-bdf1-af3d4e9cb8ed",
+      "content": "Fiz um piquenique no parque com minha família.\nFui ao teatro para assistir a uma peça de comédia.\n",
+      "created_at": "2023-04-09 17:20:39.786578",
+      "updated_at": "2023-04-09 17:20:39.786578"
     },
     {
-      "id": "737223f0-da37-11ed-9ba0-7bb99431e5b2",
-      "content": "Fui ao McDonalds com meus amigos\n",
-      "created_at": "2023-04-11 17:11:17.633276",
-      "updated_at": "2023-04-11 17:11:17.633276"
+      "id": "e92f7a60-da38-11ed-bdf1-af3d4e9cb8ed",
+      "content": "Aprendi uma nova receita de sobremesa e fiz para um jantar com amigos.\nFiz uma aula de pintura para desenvolver minha habilidade artística.\n\n\n",
+      "created_at": "2023-04-11 17:20:39.786578",
+      "updated_at": "2023-04-11 17:20:39.786578"
+    },
+    {
+      "id": "1966ec40-da39-11ed-bdf1-af3d4e9cb8ed",
+      "content": "Fui a uma palestra e fui para a casa da minha namorada.",
+      "created_at": "2023-04-12 17:20:39.786578",
+      "updated_at": "2023-04-12 17:20:39.786578"
+    },
+    {
+      "id": "23bf8b20-da39-11ed-bdf1-af3d4e9cb8ed",
+      "content": "Hoje estudei muito Flutter! ",
+      "created_at": "2023-04-13 17:20:39.786578",
+      "updated_at": "2023-04-13 17:20:39.786578"
     }
   ]
 }

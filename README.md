@@ -1,16 +1,14 @@
-# flutter_webapi_first_course
+# Aplicativo de Diário
 
-Projeto do primeiro curso de WebAPI da Formação Flutter
+Projeto de um aplicativo de diário.
 
-## Getting Started
+## Descrição
 
-This project is a starting point for a Flutter application.
+Neste projeto, há uma lista de dias com atividades feitas e não feitas.
+As não feitas são setadas como padrão, como uma folha em branco, caso não escreva nada permaneecerá em branco.
+As feitas, receberá um card, com a data e o conteúdo que foi escrito.
+Neste projeto utilizei diversos widgets, porém, o mais desafiador foi o uso da API REST (deu trabalho!). Criei uma API local usando #node e configurei um servidor #Json. Utilizando o pacote HTTP usei o método POST para envio das informações e o método GET para recuperar essas informações.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![ezgif com-video-to-gif (2)](https://user-images.githubusercontent.com/104390047/231877098-baccbc0c-f383-4d5a-9437-2fae338081cf.gif)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

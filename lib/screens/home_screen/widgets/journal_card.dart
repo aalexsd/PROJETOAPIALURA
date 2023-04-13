@@ -50,7 +50,7 @@ class JournalCard extends StatelessWidget {
                       journal!.createdAt.day.toString(),
                       style: const TextStyle(
                           fontSize: 28,
-                          color: Colors.white,
+                          color: Colors.black,
                           fontWeight: FontWeight.bold),
                     ),
                   ),
