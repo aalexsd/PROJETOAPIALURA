@@ -35,18 +35,19 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         // Título basado no dia atual
-        title: Text(
-          "${currentDay.day}  |  ${currentDay.month}  |  ${currentDay.year}",
-        ),
-        actions: [
-          IconButton(
-            onPressed: () {
-              refresh();
-            },
-            icon: const Icon(
-              Icons.refresh,
-            ),
+        title: const Text(
+          "Meu Diário",
+          style: TextStyle(
+            fontSize: 18
           ),
+        ),
+        actions: const [
+           Padding(
+             padding: EdgeInsets.only(right: 10.0),
+             child: CircleAvatar(
+              backgroundImage: AssetImage('assets/images/avatar.jpeg'),
+          ),
+           )
         ],
       ),
       body: ListView(

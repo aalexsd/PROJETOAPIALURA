@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_webapi_first_course/screens/view_screen/view_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'models/journal.dart';
 import 'screens/add_journal_screen/add_journal_screen.dart';
@@ -21,16 +22,19 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.grey,
         appBarTheme: const AppBarTheme(
           elevation: 0,
-          backgroundColor: Colors.black,
-          titleTextStyle: TextStyle(color: Colors.white),
-          actionsIconTheme: IconThemeData(color: Colors.white),
-          iconTheme: IconThemeData(color: Colors.white),
+          backgroundColor: Color(0xFFEEEFF5),
+          titleTextStyle: TextStyle(color: Colors.black,
+          fontSize: 18,
+          fontWeight: FontWeight.bold),
+          actionsIconTheme: IconThemeData(color: Colors.black),
+          iconTheme: IconThemeData(color: Colors.black),
         ),
         textTheme: GoogleFonts.bitterTextTheme(),
       ),
       initialRoute: "home",
       routes: {
         "home": (context) => const HomeScreen(),
+        "view": (context) => const ViewScreen(),
       },
       onGenerateRoute: (routeSettings) {
         if (routeSettings.name == "add-journal") {

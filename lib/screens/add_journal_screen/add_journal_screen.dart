@@ -18,7 +18,10 @@ class _AddJournalScreenState extends State<AddJournalScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(WeekDay(widget.journal.createdAt).toString()),
+        title: Text(WeekDay(widget.journal.createdAt).toString(),
+        style: const TextStyle(
+          fontSize: 16,
+        ),),
         actions: [
           IconButton(
             onPressed: () {
@@ -29,7 +32,7 @@ class _AddJournalScreenState extends State<AddJournalScreen> {
         ],
       ),
       body: Padding(
-        padding: const EdgeInsets.all(8),
+        padding: const EdgeInsets.all(15),
         child: TextField(
           controller: contentController,
           keyboardType: TextInputType.multiline,
@@ -37,6 +40,9 @@ class _AddJournalScreenState extends State<AddJournalScreen> {
           expands: true,
           maxLines: null,
           minLines: null,
+          decoration: const InputDecoration(
+            labelText: 'Conte como foi seu dia...'
+          ),
         ),
       ),
     );

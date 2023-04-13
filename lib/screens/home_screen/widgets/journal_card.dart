@@ -20,7 +20,7 @@ class JournalCard extends StatelessWidget {
     if (journal != null) {
       return InkWell(
         onTap: () {
-          //TODO: Implementar edição da entrada
+          onJournalCLick(context);
         },
         child: Container(
           height: 115,
@@ -40,7 +40,7 @@ class JournalCard extends StatelessWidget {
                     width: 75,
                     alignment: Alignment.center,
                     decoration: const BoxDecoration(
-                      color: Colors.black54,
+                      color: Colors.lightGreenAccent,
                       border: Border(
                           right: BorderSide(color: Colors.black87),
                           bottom: BorderSide(color: Colors.black87)),
@@ -49,7 +49,7 @@ class JournalCard extends StatelessWidget {
                     child: Text(
                       journal!.createdAt.day.toString(),
                       style: const TextStyle(
-                          fontSize: 32,
+                          fontSize: 28,
                           color: Colors.white,
                           fontWeight: FontWeight.bold),
                     ),
@@ -97,7 +97,7 @@ class JournalCard extends StatelessWidget {
           alignment: Alignment.center,
           child: Text(
             "${WeekDay(showedDate).short} - ${showedDate.day}/${showedDate.month}/${showedDate.year}",
-            style: const TextStyle(fontSize: 14),
+            style: const TextStyle(fontSize: 18),
             textAlign: TextAlign.center,
           ),
         ),
@@ -132,5 +132,8 @@ class JournalCard extends StatelessWidget {
         );
       }
     });
+  }
+  void onJournalCLick(BuildContext context){
+    Navigator.of(context).pushReplacementNamed('view');
   }
 }
