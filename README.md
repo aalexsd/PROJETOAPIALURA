@@ -6,7 +6,7 @@ Projeto de um aplicativo de diário.
 
 Neste projeto, há uma lista de dias com atividades feitas e não feitas.
 As não feitas são setadas como padrão, como uma folha em branco, caso não escreva nada permaneecerá em branco.
-As feitas, receberá um card, com a data e o conteúdo que foi escrito.
+As feitas, receberá um card, com a data e o conteúdo que foi escrito, como se tivéssemos escrito em uma folha de papel.
 Neste projeto utilizei diversos widgets, porém, o mais desafiador foi o uso da API REST (deu trabalho!). Criei uma API local usando #node e configurei um servidor #Json. Utilizando o pacote HTTP usei o método POST para envio das informações e o método GET para recuperar essas informações.
 
 
