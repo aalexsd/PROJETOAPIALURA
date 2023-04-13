@@ -29,6 +29,7 @@ class JournalCard extends StatelessWidget {
             border: Border.all(
               color: Colors.black87,
             ),
+            borderRadius: BorderRadius.circular(8)
           ),
           child: Row(
             children: [
@@ -95,8 +96,8 @@ class JournalCard extends StatelessWidget {
           height: 115,
           alignment: Alignment.center,
           child: Text(
-            "${WeekDay(showedDate).short} - ${showedDate.day}",
-            style: const TextStyle(fontSize: 12),
+            "${WeekDay(showedDate).short} - ${showedDate.day}/${showedDate.month}/${showedDate.year}",
+            style: const TextStyle(fontSize: 14),
             textAlign: TextAlign.center,
           ),
         ),
